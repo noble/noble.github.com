@@ -1,0 +1,331 @@
+
+
+a:link{
+background-color:inherit;
+color:#05B8C1;
+text-decoration:underline;
+}
+a:visited{
+background-color:inherit;
+color:#05B8C1;
+text-decoration:underline;
+}
+a:hover{
+background-color:inherit;
+color:#939393;
+text-decoration:none;
+}
+a:active{
+background-color:inherit;
+color:#05B8C1;
+text-decoration:underline;
+}
+
+a:link.prp{
+background-color:inherit;
+color:#967eb0;
+text-decoration:underline;
+}
+a:visited.prp{
+background-color:inherit;
+color:#967eb0;
+text-decoration:underline;
+}
+a:hover.prp{
+background-color:inherit;
+color:#939393;
+text-decoration:none;
+}
+a:active.prp{
+background-color:inherit;
+color:#967eb0;
+text-decoration:underline;
+}
+
+
+
+a:link.alt{
+background-color:inherit;
+color:#725F00;
+text-decoration:none;
+}
+a:visited.alt{
+background-color:inherit;
+color:#725F00;
+text-decoration:none;
+}
+a:hove.alt{
+background-color:inherit;
+color:#232323;
+text-decoration:underline;
+}
+a:active.alt{
+background-color:inherit;
+color:#725F00;
+text-decoration:none;
+}
+
+a:link.grey{
+background-color:inherit;
+color:#939393;
+text-decoration:none;
+}
+a:visited.grey{
+background-color:inherit;
+color:#939393;
+text-decoration:none;
+}
+a:hover.grey{
+background-color:inherit;
+color:#05B8C1;
+text-decoration:underline;
+}
+a:active.grey{
+background-color:inherit;
+color:#939393;
+text-decoration:none;
+}
+
+a:link.black{
+background-color:inherit;
+color:#000000;
+text-decoration:none;
+}
+a:visited.black{
+background-color:inherit;
+color: #000000;
+text-decoration:none;
+}
+a:hover.black{
+background-color:inherit;
+color:#232323;
+text-decoration:underline;
+}
+a:active.black{
+background-color:inherit;
+color: #000000;
+text-decoration:none;
+}
+
+a:link.black_nav{
+background-color:inherit;
+color:#000000;
+text-decoration:underline;
+}
+a:visited.black_nav{
+background-color:inherit;
+color: #000000;
+text-decoration:underline;
+}
+a:hover.black_nav{
+background-color:inherit;
+color:#232323;
+text-decoration:none;
+}
+a:active.black_nav{
+background-color:inherit;
+color: #000000;
+text-decoration:underline;
+}
+
+
+a:link.white{
+background-color:inherit;
+color:#ffffff;
+text-decoration:none;
+}
+a:visited.white{
+background-color:inherit;
+color: #ffffff;
+text-decoration:none;
+}
+a:hover.white{
+background-color:inherit;
+color: #ffffff;
+text-decoration:none;
+}
+a:active.white{
+background-color:inherit;
+color: #ffffff;
+text-decoration:none;
+}
+
+a:link.white_alt{
+background-color:inherit;
+color:#ffffff;
+text-decoration:none;
+}
+a:visited.white_alt{
+background-color:inherit;
+color: #ffffff;
+text-decoration:none;
+}
+a:hover.white_alt{
+background-color:inherit;
+color: #ffffff;
+text-decoration:underline;
+}
+a:active.white_alt{
+background-color:inherit;
+color: #ffffff;
+text-decoration:none;
+}
+
+
+#top_nav a{
+font-size:8pt;
+
+}
+
+.subscribe_btn{
+width:192px;
+height:39px;
+}
+
+.subscribe_now{
+text-indent:2000px;
+background:url("buttons/subscribe_now.html") top left no-repeat;
+overflow:hidden;
+display:block;
+width:192px;
+height:39px;
+
+}
+input.subscribe_now{
+cursor:pointer;
+border:none;
+}
+
+.subscribe_now:hover{
+background-position:top right;
+cursor:pointer;
+
+}
+
+.video_archive_btn{
+width:184px;
+height:33px;
+}
+
+.video_archive{
+text-indent:2000px;
+background:url("buttons/enter_video_archive.html") top left no-repeat;
+overflow:hidden;
+display:block;
+width:184px;
+height:33px;
+
+}
+
+.video_archive:hover{
+background-position:bottom left;
+cursor:pointer;
+
+}
+
+.login_now_btn{
+width:192px;
+height:39px;
+}
+
+.login_now{
+text-indent:2000px;
+background:url("buttons/login_now.html") top left no-repeat;
+overflow:hidden;
+display:block;
+width:192px;
+height:39px;
+
+}
+
+.login_now:hover{
+background-position:bottom left;
+cursor:pointer;
+
+}
+
+.sign_up_now_btn{/*outer div */
+width:192px;
+height:39px;
+}
+
+.sign_up_now{/*inner a link*/
+text-indent:2000px;
+background:url("buttons/sign_up_now.html") top left no-repeat;
+overflow:hidden;
+display:block;
+width:192px;
+height:39px;
+
+}
+
+
+input.sign_up_now, input.login_now{
+background-color:#ffffff;
+background:url("buttons/sign_up_now.html") top left no-repeat;
+width:192px;
+height:39px;
+border:0px;
+cursor:pointer;
+
+}
+
+input.login_now{
+background:url("buttons/login_now.html") top left no-repeat;
+
+}
+
+.sign_up_now:hover{/*inner a link hover*/
+background-position:bottom left;
+cursor:pointer;
+
+}
+
+.vid_thumb_btn{/*outer div */
+width:75px;
+height:75px;
+float:left;
+margin:0px 15px 0px 0px;
+}
+
+.vid_thumbs{/*inner a link*/
+text-indent:2000px;
+background:url("assets/video_thumb_hover.html") top left no-repeat;
+overflow:hidden;
+display:block;
+width:75px;
+height:75px;
+
+}
+
+.vid_thumbs:hover{/*inner a link hover*/
+background-position:bottom left;
+cursor:pointer;
+
+}
+
+#nav_holder a.nav, #nav_holder a.nav:hover, #nav_holder a.over, #nav_holder a.nav_alt, #nav_holder a.nav_alt{
+float:left;
+display:block;
+padding:10px 7px 0px 7px;
+text-align:center;
+color:#515151;
+text-decoration:none;
+height:25px;
+border-left:solid 1px #939393;
+font-weight:bold;
+
+}
+
+#nav_holder a.nav_alt{
+background-color:#967eb0;
+color:#ffffff;
+}
+
+#nav_holder a.nav:hover, #nav_holder a.over{
+background-color:#05B8C1;
+color:#ffffff;
+
+}
+
+
